@@ -11,7 +11,7 @@ const config: SiteConfig = {
   // The author of the site, used in the footer, SEO, and RSS feed.
   author: 'YAMASHITA Hiromu',
   // Keywords for SEO, used in the meta tags.
-  tags: ['Astro', 'Terminal', 'Theme', 'MultiTerm', 'stelcodes'],
+  tags: ['Astro', 'NIKON_Z5Ⅱ', 'ポートレート撮影', 'スナップ撮影', '片岡奈央乃'],
   // Path to the image used for generating social media previews.
   // Needs to be a square JPEG file due to limitations of the social card generator.
   // Try https://squoosh.app/ to easily convert images to JPEG.
@@ -47,7 +47,7 @@ const config: SiteConfig = {
     mode: 'light-dark-auto',
     // The default theme identifier, used when themeMode is "select" or "light-dark-auto".
     // Make sure this is one of the themes listed in `themes` or "auto" for "light-dark-auto" mode.
-    default: 'rose-pine-dawn',
+    // default: 'rose-pine-dawn',
     // Shiki themes to bundle with the site.
     // https://expressive-code.com/guides/themes/#using-bundled-themes
     // These will be used to theme the entire site along with syntax highlighting.
