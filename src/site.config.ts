@@ -134,12 +134,12 @@ const config: SiteConfig = {
   // You'll need a GitHub repository with discussions enabled and the Giscus app installed.
   // Take the values from the generated script tag at https://giscus.app and fill them in here.
   // If you don't want to use Giscus, set this to undefined.
-  // giscus: {
-  //   repo: 'stelcodes/multiterm-astro',
-  //   repoId: 'R_kgDOPNnBig',
-  //   category: 'Giscus',
-  //   categoryId: 'DIC_kwDOPNnBis4CteOc',
-  //   reactionsEnabled: true, // Enable reactions on post itself
+  giscus: {
+    repo: 'hirom-working/hirom.net-dev',
+    repoId: 'R_kgDOPZkfdw',
+    category: 'Announcements',
+    categoryId: 'DIC_kwDOPZkfd84Ct5gn',
+    reactionsEnabled: true, // Enable reactions on post itself
   // },
 }
 
