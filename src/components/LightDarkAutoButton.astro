@@ -23,7 +23,7 @@ let darkTheme = siteConfig.themes.include[1]
   const darkThemeId = themeButton?.getAttribute('data-dark')
   const sunIcon = themeButton?.querySelector('#icon-light')
   const moonIcon = themeButton?.querySelector('#icon-dark')
-  const sunMoonIcon = themeButton?.querySelector('#icon-auto')
+  // const sunMoonIcon = themeButton?.querySelector('#icon-auto')
   const updateIcons = (theme: string) => {
     if (theme === lightThemeId) {
       sunIcon?.classList.remove('hidden')
