@@ -12,13 +12,3 @@ coverImage:
   src: '_assets/IMG_1145.jpg'
   alt: ''
 ---
-
-![](_assets/DSC_5251.jpg)
-
-![](_assets/DSC_5495.jpg)
-
-![](_assets/DSC_4870.jpg)
-
-![](_assets/DSC_4850.jpg)
-
-![](_assets/DSC_4531.jpg)
