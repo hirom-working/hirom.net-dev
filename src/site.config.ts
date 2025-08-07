@@ -103,7 +103,7 @@ const config: SiteConfig = {
       // 'plastic',
       // 'poimandres',
       // 'red',
-      'rose-pine',
+      // 'rose-pine',
       'rose-pine-dawn',
       'rose-pine-moon',
       // 'slack-dark',
