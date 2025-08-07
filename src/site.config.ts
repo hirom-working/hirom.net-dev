@@ -18,7 +18,7 @@ const config: SiteConfig = {
   socialCardAvatarImage: './src/content/avatar.jpg',
   // Font imported from @fontsource or elsewhere, used for the entire site.
   // To change this see src/styles/global.css and import a different font.
-  font: 'JetBrains Mono Variable',
+  font: 'Source Han Sans JP',
   // For pagination, the number of posts to display per page.
   pageSize: 5,
   // The navigation links to display in the header.
