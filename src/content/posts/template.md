@@ -1,5 +1,5 @@
 ---
-title: 
+title: ''
 draft: true
 published: 2025-08-05
 tags:
