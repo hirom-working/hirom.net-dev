@@ -23,10 +23,10 @@ const config: SiteConfig = {
   pageSize: 5,
   // The navigation links to display in the header.
   navLinks: [
-    {
-      name: 'Home',
-      url: '/',
-    },
+    // {
+    //   name: 'Home',
+    //   url: '/',
+    // },
     {
       name: 'About',
       url: '/about',
