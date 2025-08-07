@@ -9,8 +9,8 @@ tags:
   - 'iPhone_16_Pro_Max'
 toc: true
 coverImage:
-  src: _assets/IMG_1145.jpg
-  alt: ""
+  src: '_assets/IMG_1145.jpg'
+  alt: ''
 ---
 
 ![](_assets/DSC_5251.jpg)
