@@ -47,7 +47,7 @@ const config: SiteConfig = {
     mode: 'select',
     // The default theme identifier, used when themeMode is "select" or "light-dark-auto".
     // Make sure this is one of the themes listed in `themes` or "auto" for "light-dark-auto" mode.
-    default: 'catppuccin-mocha',
+    default: 'light-dark-auto',
     // Shiki themes to bundle with the site.
     // https://expressive-code.com/guides/themes/#using-bundled-themes
     // These will be used to theme the entire site along with syntax highlighting.
@@ -121,12 +121,12 @@ const config: SiteConfig = {
   },
   // Social links to display in the footer.
   socialLinks: {
-    github: 'https://github.com/stelcodes/multiterm-astro',
-    mastodon: 'https://github.com/stelcodes/multiterm-astro',
-    email: 'https://github.com/stelcodes/multiterm-astro',
-    linkedin: 'https://github.com/stelcodes/multiterm-astro',
-    bluesky: 'https://github.com/stelcodes/multiterm-astro',
-    twitter: 'https://github.com/stelcodes/multiterm-astro',
+    github: 'https://github.com/hirom-working',
+    // mastodon: 'https://github.com/stelcodes/multiterm-astro',
+    email: 'info@hirom.dev',
+    linkedin: 'https://www.linkedin.com/in/hiromu-yamashita-51b576216/',
+    bluesky: 'https://bsky.app/profile/yhirom.bsky.social',
+    twitter: 'https://x.com/Hiromtoon',
     rss: true, // Set to true to include an RSS feed link in the footer
   },
   // Configuration for Giscus comments.
