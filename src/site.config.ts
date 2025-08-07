@@ -137,8 +137,8 @@ const config: SiteConfig = {
   giscus: {
     repo: 'hirom-working/hirom.net-dev',
     repoId: 'R_kgDOPZkfdw',
-    category: 'Announcements',
-    categoryId: 'DIC_kwDOPZkfd84Ct5gn',
+    category: 'giscus',
+    categoryId: 'DIC_kwDOPZkfd84Ct5j1',
     reactionsEnabled: true, // Enable reactions on post itself
    },
 }
