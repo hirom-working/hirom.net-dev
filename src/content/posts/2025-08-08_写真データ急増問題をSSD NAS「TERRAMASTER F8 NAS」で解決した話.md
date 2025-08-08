@@ -1,5 +1,5 @@
 ---
-title: '写真データ急増問題をSSD NAS「TERRAMASTER F8」で解決した話'
+title: '写真データ急増問題をSSD NAS「TERRAMASTER F8 NAS」で解決した話'
 draft: false
 published: 2025-08-08
 tags:
