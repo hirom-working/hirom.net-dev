@@ -10,7 +10,7 @@ import type { ReactNode } from 'react'
 
 // Load the font file as binary data
 const fontPath = path.resolve(
-  './node_modules/@expo-google-fonts/jetbrains-mono/400Regular/JetBrainsMono_400Regular.ttf',
+  './node_modules/@expo-google-fonts/noto-sans-jp/400Regular/NotoSansJP_400Regular.ttf',
 )
 const fontData = fs.readFileSync(fontPath) // Reads the file as a Buffer
 
@@ -45,7 +45,7 @@ const ogOptions: SatoriOptions = {
   fonts: [
     {
       data: fontData,
-      name: 'JetBrains Mono',
+      name: 'Noto Sans JP',
       style: 'normal',
       weight: 400,
     },
