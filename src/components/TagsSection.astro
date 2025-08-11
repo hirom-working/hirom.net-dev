@@ -6,13 +6,23 @@ interface Props {
 }
 
 const { posts } = Astro.props
-const tags = new Set<string>([...posts.flatMap((post) => post.data.tags || [])])
 
-const tagsWithCount = Array.from(tags)
-  .map((tag) => {
-    const count = posts.filter((post) => post.data.tags?.includes(tag)).length
-    return { tag, count }
-  })
+// 全ての記事からタグをフラットな配列として取り出します
+const allTags = posts.flatMap((post) => post.data.tags || [])
+
+// 各タグの出現回数を数えます
+const tagCounts = allTags.reduce(
+  (acc, tag) => {
+    acc[tag] = (acc[tag] || 0) + 1
+    return acc
+  },
+  {} as Record<string, number>,
+)
+
+// 出現回数が2回以上のタグのみをフィルタリングし、多い順にソートします
+const tagsWithCount = Object.entries(tagCounts)
+  .map(([tag, count]) => ({ tag, count }))
+  .filter(({ count }) => count >= 2)
   .sort((a, b) => b.count - a.count)
 ---
 
