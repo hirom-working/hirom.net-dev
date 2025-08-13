@@ -24,9 +24,10 @@ const { frontmatter } = Astro.props
 
 <script type="module">
   import { initLightbox } from '../utils/initLightbox';
-  console.log('MarkdownLayout.astro script loaded.'); // デバッグ用ログ
-  document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOMContentLoaded fired.'); // デバッグ用ログ
+  console.log('MarkdownLayout.astro script loaded.');
+  // DOMContentLoadedではなく、window.onloadで試す
+  window.onload = () => {
+    console.log('window.onload fired.');
     initLightbox();
-  });
+  };
 </script>
