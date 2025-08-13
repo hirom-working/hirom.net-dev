@@ -25,9 +25,27 @@ const { frontmatter } = Astro.props
 <script type="module">
   import { initLightbox } from '../utils/initLightbox';
   console.log('MarkdownLayout.astro script loaded.');
-  // DOMContentLoadedではなく、window.onloadで試す
-  window.onload = () => {
-    console.log('window.onload fired.');
-    initLightbox();
-  };
+
+  // MutationObserverを使用して、記事コンテンツの変更を監視
+  const targetNode = document.querySelector('.prose'); // 記事コンテンツの親要素
+  if (targetNode) {
+    const observer = new MutationObserver((mutationsList, observer) => {
+      console.log('Mutation observed. Initializing Lightbox...');
+      initLightbox();
+      observer.disconnect(); // 一度初期化したら監視を停止
+    });
+
+    // 監視オプション: 子要素の追加・削除、属性の変更を監視
+    const config = { childList: true, subtree: true };
+
+    // 監視を開始
+    observer.observe(targetNode, config);
+  } else {
+    console.warn('Target element ".prose" not found for MutationObserver.');
+    // もし.proseが見つからない場合は、念のためDOMContentLoadedで試す
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log('DOMContentLoaded fired as fallback.');
+      initLightbox();
+    });
+  }
 </script>
