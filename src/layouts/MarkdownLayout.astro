@@ -1,6 +1,7 @@
 ---
 import Layout from '@layouts/Layout.astro'
 import type { MarkdownLayoutProps } from 'astro'
+import { initLightbox } from '../utils/initLightbox'; // 追加
 
 type Props = MarkdownLayoutProps<{
   // Define frontmatter props here
@@ -23,3 +24,10 @@ const { frontmatter } = Astro.props
     </div>
   </div>
 </Layout>
+
+<script type="module">
+  import { initLightbox } from '../utils/initLightbox';
+  document.addEventListener('DOMContentLoaded', () => {
+    initLightbox();
+  });
+</script>
