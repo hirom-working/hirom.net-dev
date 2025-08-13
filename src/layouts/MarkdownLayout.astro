@@ -1,16 +1,13 @@
 ---
 import Layout from '@layouts/Layout.astro'
 import type { MarkdownLayoutProps } from 'astro'
-import { initLightbox } from '../utils/initLightbox'; // 追加
+import { initLightbox } from '../utils/initLightbox';
 
 type Props = MarkdownLayoutProps<{
-  // Define frontmatter props here
   title: string
   description?: string
 }>
 
-// Now, `frontmatter`, `url`, and other Markdown layout properties
-// are accessible with type safety
 const { frontmatter } = Astro.props
 ---
 
@@ -27,7 +24,9 @@ const { frontmatter } = Astro.props
 
 <script type="module">
   import { initLightbox } from '../utils/initLightbox';
+  console.log('MarkdownLayout.astro script loaded.'); // デバッグ用ログ
   document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOMContentLoaded fired.'); // デバッグ用ログ
     initLightbox();
   });
 </script>
