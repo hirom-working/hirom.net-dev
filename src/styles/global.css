@@ -87,13 +87,6 @@ button {
 article img {
   @apply block max-w-full border-8 border-foreground/10 rounded-xl overflow-hidden mx-auto;
 
-  /* 新しいスタイル */
-  max-width: 600px;
-  max-height: 600px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-
   &[pixelated='true'] {
     image-rendering: pixelated;
   }
