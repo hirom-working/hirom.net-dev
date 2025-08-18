@@ -21,7 +21,7 @@ coverImage:
 
 -   **ローカルストレージ:** 1TB SSD
 -   **バックアップ先:** 2TB 外付けSSD (TimeMachine用)
--   **データ保管庫:** 6TB HDD NAS (過去の録画データなど)
+-   **データ保管庫:** 8TB HDD NAS (過去の録画データなど)
 
 写真データだけですでに400GBを超え、ローカルストレージの空き容量は300GBを切っていたので、半年以内にパンクすることは明らかでした。
 
@@ -37,15 +37,16 @@ coverImage:
 
 最終的に、以下の構成を新たに構築しました。
 
--   **NAS:** TERRAMASTER F8 SSD
--   **SSD:** 2TB SSD x 8枚
--   **RAID構成:** RAID 6
+-   **NAS:** TERRAMASTER F8 SSD（2TB SSD x 8枚 RAID6）
+-   **HDDドライブ:** ロジテック HDD ケース（NASに外付け、8TB HDD x 2個 RAID1）
 
-これにより、実効容量12TBの高速なストレージが手に入りました。また、併せてAmazonフォトにRAW画像データをバックアップすることとしました。以上の施策によって以下のメリットが得られるようになりました。
+これによりTimeMachineサーバを兼ねたファイルサーバ（実効12TB）を得ることができました。このファイルサーバはRAID6でSSDの故障に対応します。このファイルサーバはNASに接続された外付けHDDにデータを日時バックアップしているため、NAS自体の故障にも対応します。
 
-1.  **信頼性の高いTimeMachine用ストレージの確保 (2TB → 12TB)**
+併せてAmazonフォトにRAW画像データをバックアップすることとしました。以上の施策によって以下のメリットが得られるようになりました。
+
+1.  **信頼性の高いTimeMachine用ストレージの確保**
 2.  **導入から10年近く経過したHDD NASの引退**
-3.  **写真データの多重バックアップ体制の確立 (SSD NAS + Amazonフォト/Googleフォト)**
+3.  **写真データの多重バックアップ体制の確立 (SSD NAS + Amazonフォト)**
 
 ### 将来の展望
 
@@ -54,4 +55,5 @@ coverImage:
 ### 紹介した製品
 
 -   [TERRAMASTER F8 SSD (Amazon)](https://amzn.to/4fryTJz)
--   [2TB SSD (Amazon)](https://amzn.to/40Y8ehw)
+-   [SanDisk Extreme 2TB M.2 NVMe SSD (Amazon)](https://amzn.to/40Y8ehw)
+-   [ロジテック HDD ケース(Amazon)](https://amzn.to/4moZFoG)
