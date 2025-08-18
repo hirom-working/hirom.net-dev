@@ -7,10 +7,7 @@ tags:
   - 'NAS'
   - 'ストレージ'
   - 'バックアップ'
-toc: true
-coverImage:
-  src: '_assets/61dXaOeNWLL._AC_UL348_SR348,348_.jpg'
-  alt: 'TERRAMASTER F8 SSD'
+toc: false
 ---
 
 高画質なデジタルカメラを購入したことで、写真データが急増し、ローカルストレージとバックアップ先の容量不足が深刻な問題になっていました。この状況を解決するため、SSD NAS「TERRAMASTER F8 SSD」を導入し、ストレージ環境を大幅に刷新した経緯と、その具体的な構成についてご紹介します。
