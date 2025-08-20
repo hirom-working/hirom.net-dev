@@ -38,35 +38,11 @@ toc: false
 -   **HDDドライブ:** ロジテック HDD ケース（NASに外付け、8TB HDD x 2個 RAID1）
 -   **HDDドライブ:** OMC HDD ケース（NASに外付け、16TB HDD x 1個）
 
-```mermaid
-mindmap
-  root((写真データ急増問題))
-    (これまでの課題)
-      ::icon(frown)
-      ローカルストレージ(1TB)の逼迫
-      バックアップ先の信頼性不足
-      古いHDD NASの性能限界
-    (新しい構成)
-      ::icon(server)
-      **NAS本体**
-        TERRAMASTER F8 SSD
-        (2TB SSD x8 / RAID6)
-      **NASへのバックアップ**
-        外付けHDD (8TB x2 / RAID1)
-        外付けHDD (16TB x1)
-      **クラウドバックアップ**
-        Amazon Photos (RAW画像)
-    (得られた結果)
-      ::icon(smile)
-      信頼性の高いTimeMachine環境
-      データの多重バックアップ体制
-      古い機材の引退
-    (将来の展望)
-      ::icon(rocket)
-      10Gbpsネットワーク化
-      NASを直接ストレージとして利用
-```
-
+macbookpro（1TBストレージ）━SSD（2TB×1） 
+┃
+NAS（2TB×8 RAID6）
+┣HDD（8TB×2 RAID1）
+┗HDD（16TB×1）
 
 これによりTimeMachineサーバを兼ねたファイルサーバ（実効12TB）が手に入った。ファイルサーバはRAID6でSSDの故障に対応し、さらにNASに接続した外付けHDDへ日次バックアップすることで、NAS自体の故障にも備える。
 
