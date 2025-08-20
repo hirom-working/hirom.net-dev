@@ -38,11 +38,15 @@ toc: false
 -   **HDDドライブ:** ロジテック HDD ケース（NASに外付け、8TB HDD x 2個 RAID1）
 -   **HDDドライブ:** OMC HDD ケース（NASに外付け、16TB HDD x 1個）
 
-macbookpro（1TBストレージ）━SSD（2TB×1） 
-┃
-NAS（2TB×8 RAID6）
-┣HDD（8TB×2 RAID1）
-┗HDD（16TB×1）
+
+
+```mermaid
+graph TD; 
+	A["macbookpro（1TBストレージ）"] --Thunderbolt3--- B["SSD（2TB×1）"]; 
+	A --Wi-Fi6--- C["NAS（2TB×8 RAID6）"]; 
+	C --USB3.2--- D["HDD（8TB×2 RAID1）"]; 
+	C --USB3.2--- E["HDD（16TB×1）"];
+```
 
 これによりTimeMachineサーバを兼ねたファイルサーバ（実効12TB）が手に入った。ファイルサーバはRAID6でSSDの故障に対応し、さらにNASに接続した外付けHDDへ日次バックアップすることで、NAS自体の故障にも備える。
 
