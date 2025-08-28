@@ -3,8 +3,8 @@ title: 'Lightroom現像習作'
 draft: false
 published: 2025-08-24
 tags:
-  - 'CANON EOS 20D'
-  - 'EF50mm F1.8 II'
+  - 'CANON_EOS_20D'
+  - 'CANON_EF50mm_F1.8_II'
 toc: false
 ---
 Lightroom、こんなエモ写真を現像できるくらいに慣れてきました。
