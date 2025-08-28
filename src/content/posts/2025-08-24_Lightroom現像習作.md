@@ -1,5 +1,5 @@
 ---
-title: 'エモ写真習作'
+title: 'Lightroom現像習作'
 draft: false
 published: 2025-08-24
 tags:
