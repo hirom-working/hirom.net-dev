@@ -3,7 +3,7 @@ title: 'Lightroom現像習作'
 draft: false
 published: 2025-08-24
 tags:
-  - 'EOS 20D'
+  - 'CANON EOS 20D'
   - 'EF50mm F1.8 II'
 toc: false
 ---
