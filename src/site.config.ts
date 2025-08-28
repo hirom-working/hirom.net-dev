@@ -122,7 +122,7 @@ const config: SiteConfig = {
   // Social links to display in the footer.
   socialLinks: {
     github: 'https://github.com/hirom-working',
-    // mastodon: 'https://github.com/stelcodes/multiterm-astro',
+    mastodon: 'https://mastodon.social/@mokipoint',
     email: 'info@hirom.dev',
     linkedin: 'https://www.linkedin.com/in/hiromu-yamashita-51b576216/',
     bluesky: 'https://bsky.app/profile/yhirom.bsky.social',
