@@ -123,7 +123,7 @@ const config: SiteConfig = {
   socialLinks: {
     twitter: 'https://x.com/Hiromtoon',
     bluesky: 'https://bsky.app/profile/yhirom.bsky.social',
-    mastodon: 'https://mastodon.social/@mokipoint',
+//
     github: 'https://github.com/hirom-working',
     email: 'info@hirom.dev',
     linkedin: 'https://www.linkedin.com/in/hiromu-yamashita-51b576216/',
