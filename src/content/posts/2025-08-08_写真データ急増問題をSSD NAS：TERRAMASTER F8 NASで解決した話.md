@@ -43,7 +43,7 @@ toc: false
 
 -   **NAS:** TERRAMASTER F8 SSD（2TB SSD x 8枚 RAID6）
 -   **HDDドライブ:** ロジテック HDD ケース（NASに外付け、8TB HDD x 2個 RAID1）
--   **HDDドライブ:** OMC HDD ケース（NASに外付け、16TB HDD x 1個）
+-   **HDDドライブ:** ORICO HDD ケース（NASに外付け、16TB HDD x 1個）
 
 ![](_assets/Pasted%20image%2020250821080803.png)
 
@@ -67,3 +67,4 @@ toc: false
 -   [TERRAMASTER F8 SSD (Amazon)](https://amzn.to/4fryTJz)
 -   [SanDisk Extreme 2TB M.2 NVMe SSD (Amazon)](https://amzn.to/40Y8ehw)
 -   [ロジテック HDD ケース(Amazon)](https://amzn.to/4moZFoG)
+-   [ORICO HDD ケース(Amazon)](https://amzn.to/3UVMD5U)
