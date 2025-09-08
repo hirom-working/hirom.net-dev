@@ -1,5 +1,15 @@
 @import 'tailwindcss';
 
+/* https://fontsource.org/fonts/inter/install */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('@fontsource-variable/inter/files/inter-latin-wght-normal.woff2') 
+    format('woff2-variations');
+}
+
 /* https://fontsource.org/fonts/jetbrains-mono/install */
 /* jetbrains-mono-latin-wght-normal */
 @font-face {
@@ -42,6 +52,7 @@ header {
 }
 
 html {
+  font-size: 15px;
   /* Slightly more accented scrollbar for better visibility */
   scrollbar-color: color-mix(in oklab, var(--theme-accent) 30%, transparent) transparent !important;
   /* Prevents layout from jumping when opening theme select or search dialog menus */
